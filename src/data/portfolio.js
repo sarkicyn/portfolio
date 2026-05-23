@@ -1,10 +1,117 @@
 export const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
+  { label: 'Resume', href: '#resume' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ];
+
+export const resume = {
+  name: 'Artem Sarkisyan',
+  role: 'Junior Unity Gameplay Programmer / Technical Artist',
+  location: 'Open to junior game development roles',
+  contact: [
+    { label: 'Email', value: 'sarkicyn@icloud.com', href: 'mailto:sarkicyn@icloud.com' },
+    { label: 'GitHub', value: 'github.com/sarkicyn', href: 'https://github.com/sarkicyn' },
+    { label: 'Telegram', value: '@yeeeee11111', href: 'https://t.me/yeeeee11111' },
+  ],
+  summary:
+    'Junior Gameplay Programmer and Technical Artist focused on Unity, C#, gameplay systems, UI integration, and Blender-to-Unity asset workflows. Experienced in building progression-based mechanics, stamina and reward systems, interactive UI, prototype gameplay loops, and 3D asset pipelines for game projects.',
+  coreSkills: [
+    {
+      title: 'Unity Gameplay Programming',
+      items: [
+        'Unity',
+        'C# scripting',
+        'Gameplay systems',
+        'Core game mechanics',
+        'Progression systems',
+        'Stamina and fatigue systems',
+        'Reward systems',
+        'Event-driven mechanics',
+        'Gameplay debugging',
+        'Optimization basics',
+      ],
+    },
+    {
+      title: 'Game UI and Frontend',
+      items: [
+        'Unity UI',
+        'TextMeshPro',
+        'UI logic integration',
+        'Buttons, sliders, panels, and feedback states',
+        'JavaScript',
+        'HTML5',
+        'CSS3',
+        'Responsive layouts',
+        'Telegram Mini Apps',
+      ],
+    },
+    {
+      title: 'Technical Art and 3D Pipeline',
+      items: [
+        'Blender',
+        '3D modeling',
+        'PBR materials',
+        'Node-based texturing',
+        'Texture baking',
+        'Lighting setup',
+        'Scene composition',
+        'Blender-to-Unity asset pipeline',
+        'Animation asset workflows',
+      ],
+    },
+  ],
+  projectExperience: [
+    {
+      title: 'Gym Clicker Game',
+      role: 'Unity Gameplay Programmer / Technical Artist',
+      stack: 'Unity, C#, Blender, TextMeshPro, Unity UI',
+      points: [
+        'Built training, stamina, fatigue, progression, and reward systems for a gym-themed clicker game prototype.',
+        'Implemented gameplay UI using TextMeshPro, buttons, sliders, panels, and real-time feedback states.',
+        'Integrated C# gameplay logic with UI updates, player progression, and interactive game mechanics.',
+        'Worked with Unity physics components, animation systems, object interactions, and gameplay script debugging.',
+        'Created Blender assets, materials, and lighting for a basement gym environment.',
+      ],
+    },
+    {
+      title: 'Telegram Fitness Mini App',
+      role: 'Frontend Developer / UI Logic',
+      stack: 'JavaScript, HTML5, CSS3, Telegram Mini Apps',
+      points: [
+        'Designed a modular Telegram Mini App concept for fitness tracking, workout records, profiles, and progression.',
+        'Implemented UI logic for profile screens, workout records, navigation, modals, and level progression displays.',
+        'Built responsive frontend structure and practiced Telegram Mini App and bot integration concepts.',
+      ],
+    },
+    {
+      title: 'Blender to Unity Asset Workflow',
+      role: 'Technical Artist',
+      stack: 'Blender, Unity, PBR Materials, Texture Baking',
+      points: [
+        'Created game-ready gym equipment and environment assets for Unity scenes.',
+        'Produced PBR materials with metal, roughness, bump, rust, and dirt surface details.',
+        'Practiced texture baking, material export, lighting setup, and scene composition for Unity asset workflows.',
+      ],
+    },
+  ],
+  keywords: [
+    'Junior Unity Developer',
+    'Gameplay Programmer',
+    'Unity Gameplay Programmer',
+    'C# Developer',
+    'Technical Artist',
+    'Game UI Developer',
+    'Unity UI',
+    'TextMeshPro',
+    'Blender',
+    'PBR Materials',
+    '3D Asset Pipeline',
+    'Telegram Mini Apps',
+  ],
+};
 
 export const skillGroups = [
   {

@@ -10,8 +10,8 @@ function Contact() {
 
         <div className="contact-links">
           <motion.a href="mailto:sarkicyn@icloud.com" whileHover={{ y: -5 }} whileTap={{ scale: 0.99 }}>
-            <span>Email</span>
-            sarkicyn@icloud.com
+            <span className="contact-link-label">Email</span>
+            <span className="contact-link-value">sarkicyn@icloud.com</span>
           </motion.a>
           <motion.a
             href="https://github.com/sarkicyn"
@@ -20,8 +20,8 @@ function Contact() {
             whileHover={{ y: -5 }}
             whileTap={{ scale: 0.99 }}
           >
-            <span>GitHub</span>
-            github.com/sarkicyn
+            <span className="contact-link-label">GitHub</span>
+            <span className="contact-link-value">github.com/sarkicyn</span>
           </motion.a>
           <motion.a
             href="https://t.me/yeeeee11111"
@@ -30,8 +30,8 @@ function Contact() {
             whileHover={{ y: -5 }}
             whileTap={{ scale: 0.99 }}
           >
-            <span>Telegram</span>
-            @yeeeee11111
+            <span className="contact-link-label">Telegram</span>
+            <span className="contact-link-value">@yeeeee11111</span>
           </motion.a>
         </div>
       </Reveal>
